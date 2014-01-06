@@ -1,0 +1,22 @@
+
+/* ===BEGIN STRUCTURE AND CUSTOM ELEMENTS=== */
+
+.wrapper    { margin: 0 20px; }
+
+.content-block { padding: 40px 0; }
+
+/* ===HEADER START=== */
+
+.header   { margin-bottom: 20px; padding: 20px 0; background: $accent; text-align: center;
+
+  a { color: $baseDark; }
+
+  .nav  { width: 100%; display: none; position: absolute; left: 0; z-index: 10; }
+
+  [class*=button] { @extend .button-red; }
+
+}
+
+/* ===FOOTER START=== */
+
+.footer a { color: #fff; }

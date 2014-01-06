@@ -1,0 +1,23 @@
+// Flat UI
+// http://flatuicolors.com/
+
+$base:              #95a5a6; //concrete
+$baseLight:         #ECF0F1; //clouds
+$baseDark:          #34495e; //wet asphalt
+$accent:            #1abc9c; //turquoise
+$accentAlt:         #c0392b; //belize hole
+
+
+// Base Color Rules
+$textColor:         $baseDark;
+$textColorAlt:      $base;
+
+$borderColor:       $base;
+$borderColorAlt:    $baseDark;
+
+$objectColor:       $baseLight;
+$objectColorAlt:    $baseDark;
+
+//font
+$fontFamily:        'Noto Serif', serif;
+$fontFamilyAlt:     'Open Sans', sans-serif;
